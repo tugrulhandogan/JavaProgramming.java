@@ -1,4 +1,4 @@
-package day38_Inheritance2.carTask;
+package day38_Inheritance2.carTask1;
 
 public class Car {
 
