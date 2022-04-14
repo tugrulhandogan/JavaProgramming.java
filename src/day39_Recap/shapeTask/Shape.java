@@ -11,16 +11,17 @@ public class Shape {
     public void setName(String name) {
         if(name == null){
             System.err.println("Name can not be null");
-            System.exit(1); // 1: something went wrong
+            System.exit(1); // 1: some thing went wrong
         }
 
-        if(name.isEmpty()  ||  name.isBlank()){
-            System.err.println("Invalid name;");
+        if(name.isEmpty() || name.isBlank()){
+            System.err.println("Invalid name");
             System.exit(1);
         }
 
         this.name = name;
     }
+
 
     public Shape(String name) {
         setName(name);
@@ -35,6 +36,7 @@ public class Shape {
         return 0;
     }
 
+
     @Override
     public String toString() {
         return "Shape{" +
@@ -43,18 +45,16 @@ public class Shape {
                 ", perimeter='" + perimeter() + '\'' +
                 '}';
     }
+
+
 }
 /*
-Square extends Shape:
+	Shape:
 	variables:
-		side;
-
+			name
 	Encapsulate the field
-
 	Add a constructor to set the filed
-
-	area(): side * side
-	perimeter(): side * 4
-	toString(): side, area, perimeter
-
+	Methods:
+		area(){}
+		perimeter(){}
  */
