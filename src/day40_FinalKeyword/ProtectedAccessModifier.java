@@ -10,7 +10,7 @@ public class ProtectedAccessModifier {
     }
 
     protected static void method2(){
-
+//assdf
     }
 
 }
