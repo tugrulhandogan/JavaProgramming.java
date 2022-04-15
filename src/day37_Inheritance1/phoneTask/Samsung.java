@@ -1,6 +1,6 @@
 package day37_Inheritance1.phoneTask;
 
-public final class Samsung extends Phone {
+public  class Samsung extends Iphone {
 
 
     public Samsung(String model, String size, double price, String color) {

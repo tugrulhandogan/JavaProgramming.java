@@ -1,6 +1,6 @@
 package day37_Inheritance1.phoneTask;
 
-public class PhoneShop {
+public  class PhoneShop {
 
     public static void main(String[] args) {
 
